@@ -1,0 +1,9 @@
+GET http://54.87.53.75/jpetstore/ HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: fr,fr-fr;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://www.neotys.com/recorder.html?lng=en&port=8090
+Host: 54.87.53.75
+

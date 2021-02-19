@@ -1,0 +1,117 @@
+<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Performance Testing Report</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="divHeader">Alerts</div>
+<p class="mediumtitle">54.82.45.50/Web Server</p>
+<div style="width: 100%; height: 20px;" id="report.alerts">
+<div style="float:left" class="h1" id="statistics_summary_title">Alerts</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table>
+<tr>
+<th width="50%"><strong>Alert</strong></th><th width="12%"><strong>First Occurrence
+            &nbsp;2</strong></th><th width="12%"><strong>First Occurrence
+            &nbsp;3</strong></th><th width="9%"><strong>Duration %
+            &nbsp;2</strong></th><th width="9%"><strong>Duration %
+            &nbsp;3</strong></th><th width="8%">%</th>
+</tr>
+<tr>
+<td class="line2left">
+<div class="tablelabel" style="font-weight:normal; margin-left:0px">54.82.45.50/Web Server/All/%BusyWorkers &gt;= 90.0%</div>
+</td><td class="line2right">00:01:14.503</td><td class="line2right"></td><td class="line2right">44.8</td><td class="line2right"></td><td class="line2right"></td>
+</tr>
+<tr>
+<td colspan="6" class="line2left bordered">When the percentage of child processes currently active and serving requests exceeds 90%, it indicates that the web server is under extreme load. Depending on the case (in particular where there is free memory available), we recommend you increase the number of Apache workers in order to be able to serve a greater number of requests.</td>
+</tr>
+<tr>
+<td class="line1left">
+<div class="tablelabel" style="font-weight:normal; margin-left:0px">54.82.45.50/Web Server/All/%BusyWorkers &gt;= 95.0%</div>
+</td><td class="line1right">00:25:51.713</td><td class="line1right"></td><td class="line1right">44.6</td><td class="line1right"></td><td class="line1right"></td>
+</tr>
+<tr>
+<td colspan="6" class="line1left bordered"></td>
+</tr>
+<tr>
+<td class="line2left">
+<div class="tablelabel" style="font-weight:normal; margin-left:0px">54.82.45.50/Web Server/All/IdleWorkers &lt;= 3.0</div>
+</td><td class="line2right">00:16:47.036</td><td class="line2right"></td><td class="line2right">2.5</td><td class="line2right"></td><td class="line2right"></td>
+</tr>
+<tr>
+<td colspan="6" class="line2left bordered"></td>
+</tr>
+<tr>
+<td class="line1left">
+<div class="tablelabel" style="font-weight:normal; margin-left:0px">54.82.45.50/Web Server/All/IdleWorkers &lt;= 1.0</div>
+</td><td class="line1right">00:32:40.501</td><td class="line1right"></td><td class="line1right">30.3</td><td class="line1right"></td><td class="line1right"></td>
+</tr>
+<tr>
+<td colspan="6" class="line1left bordered"></td>
+</tr>
+</table>
+</div>
+</div>
+<p class="mediumtitle">54.82.45.50/App Server</p>
+<div style="width: 100%; height: 20px;" id="report.alerts">
+<div style="float:left" class="h1" id="statistics_summary_title">Alerts</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table>
+<tr>
+<th width="50%"><strong>Alert</strong></th><th width="12%"><strong>First Occurrence
+            &nbsp;2</strong></th><th width="12%"><strong>First Occurrence
+            &nbsp;3</strong></th><th width="9%"><strong>Duration %
+            &nbsp;2</strong></th><th width="9%"><strong>Duration %
+            &nbsp;3</strong></th><th width="8%">%</th>
+</tr>
+<tr>
+<td class="line2left">
+<div class="tablelabel" style="font-weight:normal; margin-left:0px">54.82.45.50/App Server/ThreadPool/"ajp-bio-8009"/% currentThreadsBusy &gt;= 95.0%</div>
+</td><td class="line2right">00:00:02.645</td><td class="line2right"></td><td class="line2right">99.9</td><td class="line2right"></td><td class="line2right"></td>
+</tr>
+<tr>
+<td colspan="6" class="line2left bordered"></td>
+</tr>
+</table>
+</div>
+</div>
+<p class="mediumtitle">54.82.45.50/DB</p>
+<div style="width: 100%; height: 20px;" id="report.alerts">
+<div style="float:left" class="h1" id="statistics_summary_title">Alerts</div>
+</div>
+<div class="wrapper" align="center">
+<div align="center">
+<table>
+<tr>
+<th width="50%"><strong>Alert</strong></th><th width="12%"><strong>First Occurrence
+            &nbsp;2</strong></th><th width="12%"><strong>First Occurrence
+            &nbsp;3</strong></th><th width="9%"><strong>Duration %
+            &nbsp;2</strong></th><th width="9%"><strong>Duration %
+            &nbsp;3</strong></th><th width="8%">%</th>
+</tr>
+<tr>
+<td class="line2left">
+<div class="tablelabel" style="font-weight:normal; margin-left:0px">54.82.45.50/DB/Connections/aborted connects &gt;= 0.1 connections/s</div>
+</td><td class="line2right"></td><td class="line2right">00:10:39.595</td><td class="line2right"></td><td class="line2right">9.6</td><td class="line2right"></td>
+</tr>
+<tr>
+<td colspan="6" class="line2left bordered">High number of failed connections</td>
+</tr>
+<tr>
+<td class="line1left">
+<div class="tablelabel" style="font-weight:normal; margin-left:0px">54.82.45.50/DB/Connections/aborted connects &gt;= 1.0 connections/s</div>
+</td><td class="line1right"></td><td class="line1right">00:17:27.326</td><td class="line1right"></td><td class="line1right">4.9</td><td class="line1right"></td>
+</tr>
+<tr>
+<td colspan="6" class="line1left bordered"></td>
+</tr>
+</table>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+GET http://54.87.53.75/jpetstore/images/fish_icon.gif HTTP/1.1
+Host: 54.87.53.75
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Accept-Language: fr,fr-fr;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://54.87.53.75/jpetstore/shop/index.shtml
+Cookie: JSESSIONID=97E04E62FFD3FD173B2F83B11FE57DA8
+Connection: keep-alive
+

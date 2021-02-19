@@ -1,0 +1,13 @@
+POST http://54.87.53.75/jpetstore/shop/newOrder.shtml HTTP/1.1
+Host: 54.87.53.75
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: fr,fr-fr;q=0.8,en-us;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://54.87.53.75/jpetstore/shop/newOrderForm.shtml
+Cookie: JSESSIONID=1C107EF43B21FB043E3B0E35A5232650
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 299
+
+order.cardType=Visa&order.creditCard=999+9999+9999+9999&order.expiryDate=12%2F03&order.billToFirstName=ABC&order.billToLastName=XYX&order.billAddress1=901+San+Antonio+Road&order.billAddress2=MS+UCUP02-206&order.billCity=Palo+Alto&order.billState=CA&order.billZip=94303&order.billCountry=USA&x=48&y=8
